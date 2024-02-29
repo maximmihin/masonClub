@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS Masons (
+    ID INTEGER PRIMARY KEY,
+    Pseudonym TEXT UNIQUE NOT NULL,
+    JWT_token TEXT UNIQUE NOT NULL,
+    Last_auth DATE
+);
